@@ -90,7 +90,7 @@ public class Main {
                     list.add(student9);
                 }
                 if (lists.getEmail().equals(student10.getEmail())){
-                    throw new Exception("There is same email address");
+                    throw new Exception(" There is same email address");
                 }else {
                     list.add(student10);
                 }
